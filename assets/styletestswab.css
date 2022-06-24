@@ -1,0 +1,171 @@
+.banner{
+   background: url("https://www.mountelizabeth.com.sg/Sitefinity/WebSiteTemplates/ParkwayTemplate/App_Themes/ParkwayTheme/Images/en/background/average-bill-size.png")
+    no-repeat center center ;
+   background-size: cover;
+   padding-top: 20%;
+   padding-bottom: 20%;
+}
+h1{
+    font-size: large;
+}
+.formulir{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-35%);
+    padding: 10px 25px 10px ;
+    width: 370px;
+    background-color: rgb(204, 218, 237);
+    box-shadow: 0 0 10px lightsteelblue;
+    border-radius: 20px;
+}
+.formulir h2{
+    text-align: center;
+    border-bottom: 4px solid #2979ff;
+}
+.formulir a{
+    width: 100%;
+    background: rgb(77, 55, 203);
+    color:white;
+    border-radius: 60px;
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+    margin-left: 120px;
+    text-decoration: none;
+}
+.formulir a:hover{
+    background: black;
+    transition: all 0.5s ease-in-out;
+}
+.formulir form input{
+    padding: 5px 132px 5px 0px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #2979ff;
+    color:black;
+}
+.formulir form input::placeholder{
+    color:slategray;
+}
+.tentang{
+    transform: translate(0,150%);
+    background:rgb(216, 225, 237);
+    padding: 20px 0px 18px 0px;
+    width: 100%;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.footer-list{
+    width: 20%;
+    margin: 0 auto;
+}
+h3{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(6, 6, 75);
+    width: 100%;
+}
+.copyright{
+    transform: translate(0, 480%);
+    background:rgb(125, 140, 159);
+    padding: 10px 0px 13px 0px;
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width:1199.98px){
+    .logofoto img{
+        transform: translate(-40% ,0%) !important;
+    }
+    .formulir{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -35%);
+    }
+    .tentang{
+        transform: translate(0%, 200%);
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-list{
+        width: 100%;
+    }
+    .copyright{
+        transform: translate(0%, 700%);
+    }
+}
+@media screen and (max-width:991.98px){
+    .logofoto img{
+        transform: translate(-40% ,0%) !important;
+    }
+    .formulir{
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -35%);
+    }
+    .tentang{
+        transform: translate(0%, 105%);
+    }
+    
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer-list{
+        width: 100%;
+    }
+    .copyright{
+        transform: translate(0%, 1000%);
+    }
+}
+@media screen and (max-width:767.98px){
+    .logofoto img{
+        transform: translate(-600% ,0%) !important;
+    }
+    .formulir{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -35%);
+    }
+    .tentang{
+        transform: translate(0%, 120%);
+    }
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer-list{
+        width: 100%;
+    }
+    .copyright{
+        transform: translate(0, 1150%);
+    }
+}
+@media screen and (max-width:575.98px){
+    .logofoto img{
+        transform: translate(-400% ,0%) !important;
+    }
+    .formulir{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+    }
+    .tentang{
+        transform: translate(0%, 125%);
+    }
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer-list{
+        width: 100%;
+    }
+    .copyright{
+        transform: translate(0%, 1225% );
+    }
+}
